@@ -14,10 +14,11 @@ import {
 export const greetings: GreetingsType = {
   name: 'Elvis Ndegwa Kangethe',
   title: "Hi all, I'm Elvis",
+  portimg:'/img/icons/common/cv.png',
   description:
-    "As a passionate Full Stack web developer, I bring extensive experience in developing dynamic web applications using a wide range of technologies, including Python, Django, React.js, Next.js, Node.js, Laravel, Frappe, Java, and Android. Additionally, I am well-versed in creating interactive data analysis solutions through Jupyter notebooks. With a proven track record in delivering successful projects, I thrive on crafting innovative and user-friendly solutions that push the boundaries of web development. My enthusiasm for learning and staying up-to-date with the latest trends in the industry enables me to tackle complex challenges and deliver top-notch results for every project I undertake.",
+    "As a passionate Full Stack web developer, I bring extensive experience in developing dynamic web applications using a wide range of technologies, including Erpnext Frappe,Python, Django, React.js, Next.js, Node.js, Laravel, Java, and Android. Additionally, I am well-versed in creating interactive data analysis solutions through Jupyter notebooks. With a proven track record in delivering successful projects, I thrive on crafting innovative and user-friendly solutions that push the boundaries of web development. My enthusiasm for learning and staying up-to-date with the latest trends in the industry enables me to tackle complex challenges and deliver top-notch results for every project I undertake.",
   resumeLink:
-    'https://drive.google.com/file/d/1p2Bg8OwrazMEhCwXWg8m4eWho42VEajR/view?usp=drive_link',
+    'https://drive.google.com/file/d/1k_md8Ntx3NJWtYkHWsYfYGLWSY7cETcP/view?usp=sharing',
 };
 
 export const openSource = {
@@ -43,6 +44,7 @@ export const skillsSection: SkillsSectionType = {
       title: 'Full Stack Development',
       lottieAnimationFile: '/lottie/skills/fullstack.json', // Path of Lottie Animation JSON File
       skills: [
+        emoji('⚡ Building Erps using Erpnext Frappe framework Integrating with other systems.'),
         emoji(
           '⚡ Building responsive Single-Page-Apps (SPA) & PWA in React.js'
         ),
@@ -155,7 +157,7 @@ export const skillsSection: SkillsSectionType = {
 export const SkillBars: SkillBarsType[] = [
   {
     Stack: 'Frontend/Design', //Insert stack or technology you have experience in
-    progressPercentage: '70', //Insert relative proficiency in percentage
+    progressPercentage: '75', //Insert relative proficiency in percentage
   },
   {
     Stack: 'Backend',
@@ -163,14 +165,35 @@ export const SkillBars: SkillBarsType[] = [
   },
   {
     Stack: 'Programming',
-    progressPercentage: '60',
+    progressPercentage: '95',
   },
 ];
 
 export const educationInfo: EducationType[] = [
   {
+    schoolName: 'Frappe School',
+    subHeader: 'Fullstack Frappe Certification',
+    duration: 'September 2024 - October 2024',
+    desc: '',
+    grade: 'Passed',
+    descBullets: [
+      
+    ],
+  },
+  {
+    schoolName: 'Nexford University',
+    subHeader: 'Master of Science in Digital Transformation',
+    duration: 'February 2024 - July 2024',
+    desc: 'Participated in all activities of the school. went to all lab session.',
+    grade: 'GPA of 3.92',
+    descBullets: [
+      'Attained Certificate in Artifical Intelligence and Robotics',
+      'Attained Certificate in Cybersecurity Leadership',
+    ],
+  },
+  {
     schoolName: 'Dedan Kimathi University of Technology',
-    subHeader: 'Master of Science in Business Information Technology',
+    subHeader: 'Barchelor of Science in Business Information Technology',
     duration: 'September 2018 - April 2023',
     desc: 'Participated in all activities of the school. went to all lab session.',
     grade: 'SecondClass Upper Division',
@@ -197,9 +220,9 @@ export const educationInfo: EducationType[] = [
 export const experience: ExperienceType[] = [
   {
     role: 'FullStack Developer',
-    company: 'Cbigdl Limited',
-    companyLogo: '/img/icons/common/dusecaSoftware.jpg',
-    date: 'Apr 2023',
+    company: 'Aqiq Solutions',
+    companyLogo: '/img/icons/common/aqiq.png',
+    date: 'Sep 2023',
     desc: 'I am currently employed as a versatile Full Stack developer, specializing in building a diverse range of applications, including system ERPs, websites, and various other types of applications. My expertise spans the entire development stack, allowing me to seamlessly work on both the front-end and back-end components of projects. Through my skills and dedication, I take pride in delivering high-quality, robust, and efficient solutions that cater to the unique needs of each project.',
   },
   {
@@ -234,9 +257,14 @@ export const projects: ProjectType[] = [
     link:'http://cbigdl.com',
   },
   {
-    name: 'DekutAirDuka (Ecommerce)',
-    desc: 'Created an easier way for sellers and Buyers to connect and make purchase and sales',
-    github: 'https://github.com/Elvis888361/Dekutr-AirDuka',
+    name: 'Airplane Development Erps',
+    desc: 'Frappe custom App Airplane Erp',
+    github: 'https://github.com/Elvis888361/airplane_mode.git',
+  },
+  {
+    name: 'Erpnext Budget',
+    desc: 'Erpnext budget Modification',
+    github: 'https://github.com/Elvis888361/budget.git',
   },
 ];
 

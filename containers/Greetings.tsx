@@ -14,7 +14,7 @@ const Greetings = () => {
     <main>
       <div className="position-relative">
         <section className="section section-lg section-shaped pb-250">
-          <div className="shape shape-style-1 bg-gradient-darker">
+          <div className="shape shape-style-1 bg-gradient-blue">
             <span />
             <span />
             <span />
@@ -50,7 +50,22 @@ const Greetings = () => {
                   )}
                 </Col>
                 <Col lg="6">
-                  <GreetingLottie animationPath="/lottie/coding.json" />
+       
+                  <img
+              src={greetings.portimg}
+              style={{
+                objectFit: 'cover',
+                left: 0,
+                right: 0,
+                top: '7rem',
+                marginLeft: 'auto',
+                marginRight: 'auto',
+                
+                borderRadius: '50%',
+              }}
+              className="shadow mb-3"
+              alt={greetings.portimg}
+            />
                 </Col>
               </Row>
             </div>
