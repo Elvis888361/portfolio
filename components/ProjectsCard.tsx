@@ -6,7 +6,7 @@ import { ProjectType } from '../types/sections';
 const ProjectsCard = ({ name, desc, github, link }: ProjectType) => {
   return (
     <Col lg="6">
-      <Fade effect="bottom" duration={2000}>
+      <Fade triggerEffect="bottom" duration={2000}>
         <Card className="shadow-lg--hover shadow mt-4">
           <CardBody>
             <div className="d-flex px-3">

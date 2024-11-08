@@ -8,7 +8,7 @@ const Proficiency = () => {
   return (
     SkillBars && (
       <Container className="section section-lg">
-        <Fade effect="bottom" duration={2000}>
+        <Fade triggerEffect="bottom" duration={2000}>
           <Row>
             <Col lg="6">
               <h1 className="h1">Proficiency</h1>
