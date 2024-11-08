@@ -13,8 +13,8 @@ import {
 
 export const greetings: GreetingsType = {
   name: 'Elvis Ndegwa Kangethe',
-  title: "Hi all, I'm Elvis",
   portimg:'/img/icons/common/cv.png',
+  title: "Hi all, I'm Elvis",
   description:
     "As a passionate Full Stack web developer, I bring extensive experience in developing dynamic web applications using a wide range of technologies, including Erpnext Frappe,Python, Django, React.js, Next.js, Node.js, Laravel, Java, and Android. Additionally, I am well-versed in creating interactive data analysis solutions through Jupyter notebooks. With a proven track record in delivering successful projects, I thrive on crafting innovative and user-friendly solutions that push the boundaries of web development. My enthusiasm for learning and staying up-to-date with the latest trends in the industry enables me to tackle complex challenges and deliver top-notch results for every project I undertake.",
   resumeLink:
